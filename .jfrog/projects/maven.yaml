@@ -1,0 +1,11 @@
+version: 1
+type: maven
+resolver:
+    serverId: artifactory
+    snapshotRepo: project001-maven-public
+    releaseRepo: project001-maven-public
+deployer:
+    serverId: artifactory
+    snapshotRepo: project001-maven-snapshots
+    releaseRepo: project001-maven-releases
+useWrapper: true
